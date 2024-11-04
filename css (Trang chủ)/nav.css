@@ -1,0 +1,47 @@
+ /* nav */
+ nav{
+    background-color: white;
+    margin-top: 7%;
+}
+    .danh-muc{
+        display: flex;
+    }
+        .danhmuc_ i{
+            cursor: pointer;
+            font-size: 30px ;
+            color: rgb(0, 0, 0);
+            padding: 10px 0 10px 60px;
+            
+        }
+        .menu-phu li {
+           /* display: none; */
+            position: absolute;
+            top: 55px;
+            background-color: rgb(230, 152, 203);
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+        }
+        nav ul{
+            display: flex;
+            font-family:"Arsenal SC" ;
+            list-style: none;
+            align-items: center;
+            justify-content: center;
+            flex: 1;
+            padding: 45px;
+            
+        }
+        
+            nav li{
+                padding:  0 20px  0 20px;
+            }
+                a{
+                    text-decoration: none;
+                    color: rgb(0, 0, 0);
+                    font-size: 18px;
+                }
+                nav a:hover{
+                    color: rgb(150, 8, 67);
+                    font-weight: 800;
+                }

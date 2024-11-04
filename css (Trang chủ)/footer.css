@@ -1,0 +1,78 @@
+ /* footer */
+
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+ footer{
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    border-top: 1px solid #ccc;
+}
+    
+    .thongtin-lienhe{
+        padding: 10px 0 0 4px;
+    }
+            .items{
+                color: rgb(79, 76, 76);
+                display: flex;
+                flex-direction: column
+            }
+            .lien-he p{
+                font-size: 18px;
+                text-align: center;
+                font-weight: 700;
+                padding: 24px 25px 15px 25px;
+            }
+            
+            .icon-phone{
+                cursor: pointer;
+                display: flex;
+                font-size: 14px;
+                padding: 0 0 15px 0;
+            }
+            .icon-phone i{
+                padding: 0 10px 0 0;
+            }
+            .icon-email{
+                cursor: pointer;
+                font-size: 14px;
+                display: flex;
+                padding: 0 0 15px 0;
+            }
+            .icon-email i{
+                padding: 0 10px 0 0;
+            }
+            
+            footer .container{
+                display: flex;
+            }
+            
+            footer .items {
+                margin: 65px 40px 0 40px;
+                font-family: "Montserrat", sans-serif;
+            }
+
+            footer .tieu-de {
+                font-size: 15px;
+                text-align: left;
+                font-weight: 800;
+                padding: 15px 0 10px;
+                color: #484848;
+            }
+
+            footer ul {
+                list-style-type: none;
+                text-align: left;
+                padding: 10px 0 0 4px;
+            }
+
+            footer li {
+                margin-bottom: 10px;
+            }
+
+            footer a {
+                font-size: 14px;
+                color: rgb(79, 76, 76);
+            }
+
+       

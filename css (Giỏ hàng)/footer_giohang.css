@@ -1,0 +1,13 @@
+ /* footer */
+ footer{
+}
+    .Cung-pet{
+        font-size: 200px;
+        color:  rgb(255, 255, 255);
+        padding: 40px 0 20px 60px;
+        text-align: center;
+        letter-spacing: 30px;
+        cursor: pointer;
+    }
+    
+   

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIỎ HÀNG</title>
+    <link rel="icon" type="image/png"  href="https://i.pinimg.com/564x/ca/21/15/ca2115be8dc4505e040c68ffea0653bb.jpg">
+    <link  rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link rel="stylesheet" href="css (Giỏ hàng)/gio-hang.css">
+    <link rel="stylesheet" href="css (Giỏ hàng)/body_giohang.css">
+    <link rel="stylesheet" href="css (Giỏ hàng)/header_giohang.css">
+    <link rel="stylesheet" href="css (Giỏ hàng)/nav_giohang.css">
+    <link rel="stylesheet" href="css (Giỏ hàng)/content_giohang.css">
+    <link rel="stylesheet" href="css (Giỏ hàng)/footer_giohang.css">
+</head>
+
+<body>
+
+        <article>
+
+                <!-- header&nav_giohang -->
+                <div class="Menu">
+
+                    <div class="thanh-timkiem">
+
+                        <i class="search-icon fa-solid fa-magnifying-glass"></i>
+                        <i class="user-icon fa-solid fa-user"></i>
+                        <i class="bag-icon fa-solid fa-bag-shopping" ></i>
+
+                    </div>
+
+                    <div class="Thanh">
+                        <div class="logo">
+
+                            <p class="dat_online">Đặt Hàng Online 📦</p>
+
+                            <a href="http://127.0.0.1:5500/asm.html">
+                                <img src="https://i.pinimg.com/564x/ca/21/15/ca2115be8dc4505e040c68ffea0653bb.jpg">
+                            </a>
+
+                            <a href="http://127.0.0.1:5500/asm.html"><p> CƯNG PET</p></a>
+                            
+                            <p class="Kinhnghiem">Kinh nghiệm nuôi chó mèo </p>
+                        
+                        </div>
+                    </div>
+
+                    <ul style="font-size: 50px; font-weight: 800; text-align:center; padding: 30px 0 25px 0; color: rgb(230, 97, 162);">
+
+                        <li><a href="http://127.0.0.1:5500/asm.html">TRANG CHỦ</a></li> |
+                        <li><a style="font-size: 20px;" href=""> GIỎ HÀNG</a></li>
+                    
+                    </ul>
+
+                </div>
+         
+                    <p style="color: rgb(17 14 14 / 15%);padding: 0 0 0 100px; font-size: 30px; font-family: Asap, sans-serif;">
+                        Giỏ hàng của bạn</p>
+
+
+            <div class="gioHANG">
+                <div class="itemgioHANG">
+                    <div class="hinh-anh">
+                        <img src="https://down-vn.img.susercontent.com/file/7935826ec055043838687ecdd5a08d2d">
+                    </div>
+    
+                    <p class="ten">Balo phi hành gia</p>
+    
+                    <div class="gia">
+                        <span class="giaGoc">200.000 VNĐ</span>
+                        <span class="giaBan">129.000 VNĐ</span>
+                    </div>
+    
+                    <input type="number" class="soLuong" value="1">
+                    <p class="tongTien">129.000 VNĐ</p>
+    
+                    <div class="hanhDong">
+                        <i class="far fa-trash-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hoaDon">
+                <div class="khuyenMai">
+                  <div class="tbKM">Nhập mã khuyến mãi</div>
+                  <div class="code-KM_Button">
+                    <input class="codeKM" type="text" autocomplete="off" />
+                    <button onclick="KhuyenMai();"> Nhập mã</button>
+                  </div>
+                </div>
+                <div class="tongTien">
+                  <ul>
+                    <li>Tổng tiền : <span class="tongTienCart"></span></li>
+                    <li>Giảm giá: <span class="giamGiaCart"></span></span></li>
+                    <li>Tổng thanh toán :<span class="ThanhToanCart"></span></li>
+                  </ul>
+                </div>
+              </div>
+
+            <div class="thanhtoan-xoa_cart">
+
+                <div class="thanhToanCart" onclick="thanhToanGioHang();">
+                    <button>THANH TOÁN </button>
+                </div>
+
+                <div class="XoaCart" onclick="XoaGioHang();">
+                    <button>XÓA</button>
+                </div>
+
+            </div>
+       
+        </article>
+
+    <footer>
+
+        <a href="http://127.0.0.1:5500/asm.html"><p class="Cung-pet">CƯNG PET</p></a>
+        <p style="color: rgb(183, 180, 180);text-align: center; padding: 30px;font-size: 10px;">© 2023 - 2024 Cưng pet </p>
+       
+    
+    </footer>
+   
+    <script src="giohang_asmWeb1043.js"></script>
+    <script src="tao-moi-SP_asmWeb1043.js"></script>
+    <script src="ds-sp_asmWeb1043.js"></script>
+    <script src="HienSP.js"></script>
+    <script src="thanhtoan.js"></script>
+    </body>
+    </html>

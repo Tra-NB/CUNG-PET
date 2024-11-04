@@ -1,0 +1,377 @@
+ /* content */
+ @import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.article {
+    height: 4000px;
+    background-color: white;
+}
+    .gioi-thieu{
+        display: flex;
+        align-items: center;
+        padding: 30px;
+        
+    }
+        .nd-gioithieu1{
+            padding: 50px;
+            font-size: 18px;
+        }
+        
+        .anh1{
+            cursor: pointer;
+            width: 50%; 
+            padding: 0 0 0 20px;
+        }
+          
+        .tieude-chinh_{
+            margin: auto;
+            margin-top: -61px;
+            padding: 20px;
+            background: #fffcfd;
+            width: 300px;
+            text-align: center;
+            transform: translateY(120%);
+            color: #d34195;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            border-radius: 30px;
+            box-shadow: 0 0 30px pink;
+        }
+        .anh2-3-4{
+            display: flex;
+            padding: 40px;
+            margin: 60px;
+            gap: 10px;
+            background-color: #ebc6cc;
+            border-radius: 20px;
+            box-shadow: 0 0 20px #f379a1;
+        }
+            .anh2-3-4 img{
+                cursor: pointer;
+                width: 100%;
+        }
+            .anh2 img{
+                width: 390px;
+            }
+            .anh3 img{
+                width: 430px;
+            }
+            .anh4 img{
+                width: 391px;
+            }
+        .voucher{
+            padding: 0 40px 0 40px;
+        }
+            .voucher img{ 
+                cursor: pointer;
+                width: 30%;
+                padding: 0 0 50px 15px;
+            }
+
+        .san_pham{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 900;
+            font-size: 40px;
+            color: black;
+            text-align: center;
+        }
+        .boxSP{
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 0 0 30px #bd7ea3;
+            padding: 10px;
+        }
+            .boxSP img{
+                padding-bottom: 20px;
+            }
+
+            
+            .SAN_PHAM {
+                padding: 50px 0 0 61px;
+            }
+                .uu_dai{
+                    display: flex;
+                }
+                .uu_dai i{
+                    padding-right: 6px;
+                    font-size: 20px;
+                }
+                .uu_dai-items{
+                    border-radius: 10px 10px;
+                    margin: 30px 60px 40px 0;
+                    background-color: #f0e7ec;
+                }
+                .uu_dai-item{
+                    display: grid;
+                    grid-template-columns: repeat(5,1fr);
+                    padding: 30px ;
+                    gap: 30px;
+                }
+                    .uu_dai-item img{
+                        width: 100%;
+                }
+                    .boxSp img{
+                        width: 200px;
+                    }
+                    .hinh-anh{
+                        width: 100%;
+                    }
+                    
+                .giam-gia img{
+                    cursor: pointer;
+                    width: 28%; 
+                    padding: 20px;
+                }
+                .combo_giamgia{
+                    font-size: 26px;
+                    font-weight: 700;
+                    font-family: "Arsenal SC";
+                    color: rgb(221, 12, 12);
+                     padding: 18px 0 0 20px;
+                }
+                    .boxSp p{
+                        padding: 10px;
+                    }
+                   
+                    .giaNUTmua{
+                        display: flex;
+                    }
+                    .gia{
+                        margin-top: 18px;
+                    }
+                        .gia p{
+                            color: red;
+                        }
+                    .gia-goc{
+                        font-size: 12px;
+                    }
+                        .gia-goc p{
+                            text-decoration: line-through;
+                            color: rgb(94, 94, 94);
+                        }
+                    .Nutmua p{
+                        cursor: pointer;
+                        background-color: white;
+                        border: 1px rgb(223, 42, 154) solid;
+                        border-radius: 10px;
+                        padding: 6px;
+                        margin: 15px;
+                        font-size: 8px;
+                    }
+                        .Nutmua p:hover{
+                            background-color: #d59eb0;
+                            color: white;
+                        }
+
+                    .tieude_sp{
+                        font-size: 20px;
+                        color: rgb(189, 183, 183);
+                    }
+                    .fix_voucher{
+                    }
+                        .fix_voucher img {
+                            cursor: pointer;
+                            width: 13%;
+                            position: fixed;
+                            bottom: 2px;
+                            right: 2px;
+                            margin: 0 20px 40px 0 ;
+                        }
+                        .fix_voucher i {
+                            cursor: pointer;
+                            width: 51%;
+                            position: fixed;
+                            bottom: 43px;
+                            right: -708px;
+                            margin: 0 15px 80px 0;
+                    }
+    .Dich-Vu{
+        text-align: center;
+        font-family: "Roboto Flex", sans-serif;
+        padding: 0 30px 22px 0;
+        font-size: 40px;
+    }
+    .ND-DichVu{
+        margin: 0 26px 0 0;
+        text-align: center;
+        font-size: 18px;
+        color: gray;
+        font-family: "Roboto Flex", sans-serif;
+    }
+
+    .CacDichVu{
+        cursor: pointer;
+        display: flex;
+        margin: 0 176px 30px 176px;
+    }
+    .CacDichVu_{
+        cursor: pointer;
+        width: 352px;
+        height: 414px;
+        margin: 35px 0;
+    }
+    .thongtin_DV{
+        display: flex;
+        flex-direction: column;
+        margin: 0 -15px;
+    }
+    .thongtin_Cuthe{
+        text-align: center;
+        font-size: 18px;
+        font-family: "Roboto Flex", sans-serif;
+        margin:  0 20px 50px 20px;
+
+    }
+    .cat_dog{
+        display: flex;
+    }
+        .cat_dog img{
+            cursor: pointer;
+            height: 850px;
+             margin: 0 40px 50px 0;
+            padding: 50px 0 50px 13px;
+        }
+    
+    .slideshow{
+        width: 500px;
+        margin: auto;
+    }
+        .list-img{
+            display: flex;
+            overflow: hidden;
+            transition: 0.5s;
+        }
+
+        .pSlider {
+            display: flex;
+            justify-content: center;
+        }
+        .Slider {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .Slider i {
+            font-size: xx-large;
+            color: blanchedalmond;
+        }
+        
+
+        * {box-sizing:border-box}
+
+
+
+
+
+
+
+
+
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1500px;
+  position: relative;
+  margin: auto;
+  z-index: 1;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+        

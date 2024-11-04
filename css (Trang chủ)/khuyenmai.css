@@ -1,0 +1,33 @@
+
+
+.promo-timer {
+    text-align: center;
+    margin: 40px 0;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.promo-timer h2 {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+.timer {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.time-unit {
+    text-align: center;
+}
+.time-unit .value {
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+    color: rgb(0, 0, 0);
+}
+.time-unit .label {
+    font-size: 14px;
+    color: rgb(100, 100, 100);
+}

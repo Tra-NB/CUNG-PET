@@ -1,0 +1,130 @@
+article{
+    height: 1800px;
+    background-color: white;
+}
+
+img{
+    width: 100px;
+    padding:  0 20px;
+}
+
+   
+
+
+.input{
+    width: 100%;
+    border-radius: 10px;
+   
+}
+.gioHANG{
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 4px #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+    max-width: 1100px;
+}
+.itemgioHANG{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+    .itemgioHANG .hinhAnh img{
+        width: 10px;
+        height: 10px;
+    }
+    .itemgioHANG input{
+        width: 15%;
+        border-radius: 10px;
+        padding: 10px 9px;
+        outline: none;
+        border: 1px solid rgba(128, 128, 128, 0.326);
+    }
+    .ten{
+        width: 1258px;
+        font-size: 20px;
+    }
+    .gia{
+        width: 359px;
+        margin: 10px;
+    }
+    .giaGoc{
+        text-decoration: line-through;
+        color: rgb(94, 94, 94);
+    }
+    .giaBan{
+        color: red;
+    }
+    .tongTien{
+        margin: 20px;
+        width: 290px;
+    }
+        .tongTien li{
+            font-size: 20px;
+        }
+    .hanhDong i:hover{
+        color: red;
+    }
+
+/* thanhtoán */
+.thanhtoan-xoa_cart{
+    display: flex;
+    margin: 40px 0 0 600px;
+}
+    .thanhToanCart{
+        padding: 0 20px 0 0;
+    }
+    .thanhtoan-xoa_cart button{
+        padding: 17px;
+        background-color: pink;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .thanhtoan-xoa_cart button:hover{
+        background-color: rgb(255, 0, 43);
+        color: white;
+    }
+  
+    .hoaDon {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      
+      .khuyenMai {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 60%;
+        padding-left: 270px;
+      }
+      
+      .tongTien {
+        flex-basis: 40%;
+        padding-right: 300px;
+      }
+      
+      .tongTien ul {
+       display: block;
+      }
+      .code-KM_Button button{
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 20px;
+        border: none;
+        background-color: rgba(0, 0, 0, 0.271);
+      }
+      .code-KM_Button button:hover{
+        background-color: black;
+        color: white;
+      }
+      .codeKM {
+        text-transform: capitalize; /* Chuyển thành ký tự hoa   */
+        outline: none;
+        padding: 10px 5px;
+        margin-top: 10px;
+        border-radius: 13px;
+        border: 1px solid red;
+      }
+      
